@@ -5,13 +5,13 @@ import os
 ノック11 : データを読み取る
 '''
 # 売上データの読み取り
-os.chdir("../csv")
+os.chdir("../csv/Part1/")
 uriage_data = pd.read_csv('uriage.csv')
 print(uriage_data.head())
 print()
 
 # 顧客台帳データの読み取り
-os.chdir("../xlsx")
+os.chdir("../../xlsx")
 kokyaku_data = pd.read_excel('kokyaku_daicho.xlsx')
 print(kokyaku_data.head())
 print()
