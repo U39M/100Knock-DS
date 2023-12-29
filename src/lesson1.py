@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import matplotlib.pyplot as plt
 
-os.chdir('../csv')
+os.chdir('../csv/Part1/')
 
 '''
 ノック1 : データの読み込み

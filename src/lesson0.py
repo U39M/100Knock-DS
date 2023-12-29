@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-os.chdir('../csv')
+os.chdir('../csv/Part1/')
 
 file = 'height_data.csv'
 # ファイルの読み込み
